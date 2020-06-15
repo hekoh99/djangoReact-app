@@ -38,7 +38,7 @@ class App extends Component {
         <div className="content-wrapper">
           <ul>
             <li><NavLink exact to="/">홈으로</NavLink></li>
-            <li><NavLink to="/chat">채팅 리스트</NavLink></li>
+            <li><NavLink to="/chat">채팅 리스트 보기</NavLink></li>
           </ul>
         <Switch>
           <Route exact path="/chat" component={ChatList}/>
