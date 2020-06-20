@@ -37,7 +37,7 @@ class App extends Component {
         </div>
         <div className="content-wrapper">
           <ul>
-            <li><NavLink exact to="/">홈으로</NavLink></li>
+            <li><NavLink exact to="/">홈으로 가기</NavLink></li>
             <li><NavLink to="/chat">채팅 리스트 보기</NavLink></li>
           </ul>
         <Switch>
